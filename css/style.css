@@ -67,6 +67,19 @@ ul{
   padding: 0;
 }
 
+/* VISUAKKY-HIDDEN */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /* CONTAINER */
 .container{
   width: 100%;
@@ -103,6 +116,28 @@ ul{
 
 .sitenav__link:active{
   color: var(--text-color);
+}
+
+/* HOME */
+
+.home {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.home__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home__heading {
+  font-size: 47px;
+  line-height: 59px;
+}
+.home__image {
+  border-radius: 5px;
+}
+.home__text {
 }
 
 /* BACKGROUND-IMAGE FOR RETINA SCREENS */
