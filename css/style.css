@@ -56,6 +56,17 @@ img{
   height: auto;
 }
 
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 /* CONTAINER */
 .container{
   width: 100%;
@@ -69,6 +80,29 @@ img{
 /* MAIN-CONTENT */
 .main-content{
   flex-grow: 1;
+}
+
+/* SITE-HEADER */
+
+.site-header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.sitenav__list {
+  display: flex;
+  justify-content: space-between;
+}
+.sitenav__item:first-child .sitenav__link{
+  color: var(--text-color);
+}
+
+.sitenav__link {
+  color: var(--link-color);
+}
+
+.sitenav__link:active{
+  color: var(--text-color);
 }
 
 /* BACKGROUND-IMAGE FOR RETINA SCREENS */
