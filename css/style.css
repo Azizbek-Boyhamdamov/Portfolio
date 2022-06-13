@@ -285,6 +285,40 @@ ul{
   margin: 0;
 }
 
+/* FOOTER */
+
+.site-footer {
+}
+.contacts {
+  text-align: center;
+  padding-top: 112px;
+  padding-bottom: 120px;
+}
+
+.contacts__heading {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.contacts__text {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.contacts__social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.projects__linkedin-link {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.projects__tg-link {
+  display: inline-block;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
 /* BACKGROUND-IMAGE FOR RETINA SCREENS */
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
