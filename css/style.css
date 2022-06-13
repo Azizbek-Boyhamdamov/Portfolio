@@ -218,6 +218,73 @@ ul{
   display: inline-block;
 }
 
+/* PORTFOLIO */
+
+.portfolio {
+  padding-top: 112px;
+  padding-bottom: 96px;
+  background-color: #f6f6f6;
+}
+.portfolio__container {
+  text-align: center;
+}
+
+
+.portfolio__heading {
+  font-size: 34px;
+  line-height: 42px;
+  margin-bottom: 47px;
+}
+
+.projects:not(:last-child){
+  margin-bottom: 40px;
+}
+
+.projects__image-wrapper{
+  position: relative;
+}
+.projects__image-link {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.projects__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.projects__github-link {
+  display: inline-block;
+}
+.projects__github-icon ,
+.projects__netlify-icon,
+.projects__sheets-icon{
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+.projects__netlify-link {
+  display: inline-block;
+  margin-right: 45px;
+  margin-left: 45px;
+}
+
+.projects__finished-time{
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.projects__desc {
+  margin: 0;
+}
+
 /* BACKGROUND-IMAGE FOR RETINA SCREENS */
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
